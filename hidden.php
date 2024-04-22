@@ -8,11 +8,11 @@
 <body>
     <?php
     $szamlalo= 0;
-    
+
     if (isset($_POST["szamlalo"])){
         $szamlalo=$_POST["szamlalo"];
-        echo $szamlalo;
         $szamlalo++;
+        echo $szamlalo;
 
     }
     ?>
